@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+        /* will include padding and margin as part of height/width size */
+}
+
+body {
+    /* background: #FFCB05; */
+    background-image: linear-gradient(to right, red, #FFCB05);
+        /* https://www.w3schools.com/css/css3_gradients.asp */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 50px;
+    background: #3D7DCA;
+    border: 5px solid #003A70;
+    color: #FFCB05;
+    padding: 10px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    border-radius: 25px;
+}
+
+#container {
+    max-width: 1200px;
+        /* max-width: flexbox container will not be greater than 1200px despite the screen size*/
+    display: flex;
+        /* Making this container another flexbox container */
+    justify-content: center;
+        /* Want it centered on smaller devices */
+    flex-wrap: wrap;
+}
