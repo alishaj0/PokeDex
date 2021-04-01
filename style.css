@@ -32,3 +32,37 @@ h1 {
         /* Want it centered on smaller devices */
     flex-wrap: wrap;
 }
+
+/* Styles for Cards created in JS file */
+.pokemon {
+    background: #3D7DCA;
+    width: 175px;
+        /* "borderbox": width includes padding and border */
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+        /* Each card is also a flexbox container */
+    flex-direction: column;
+    align-items: center;
+        /* centering image and text below it horizonally because flex-direction is at column */
+    border-radius: 20px;
+}
+
+.img-container{
+    background-color: #003A70;
+    width: 120px;
+    height: 120px;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+        /*  To make img-container a flexbox container */
+    justify-content: center;
+        /* To center img in img-container flexbox */
+}
+
+.name {
+    /* color: #003A70; */
+    color: #FFCB05;
+    margin-bottom: 0;
+    
+}
