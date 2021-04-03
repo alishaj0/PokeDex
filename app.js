@@ -21,7 +21,7 @@ function createPokeCard(pokemon){
     <div class="img-container"> 
         <img src="${pokemon.data.sprites.front_shiny}" alt="${pokemon.data.name}" />
     </div>
-    <h3 class="name">${pokemon.data.name}</h3>
+    <h3 class="name">${pokemon.data.name.toUpperCase()}</h3>
     `;
 }
 
